@@ -1,2 +1,82 @@
-# active-directory-blue-team-lab
-Hands-on Active Directory lab focused on blue team detection and identity security.
+<img width="1020" height="763" alt="image" src="https://github.com/user-attachments/assets/e9202fb0-0851-41c9-a0d6-12e7c16d2ce1" />Active Directory Blue Team Security Lab
+• Overview
+
+This project documents a hands-on Active Directory home lab designed to simulate enterprise authentication attacks, detect malicious behavior using Windows security logs, and implement mitigations such as MFA.
+
+• Lab Architecture
+
+Domain Controller: Windows Server (DC01)
+
+Client Machine: Windows 10 (CLIENT01)
+
+Domain: lab.local
+
+Identity Integration: Azure AD with MFA
+
+Network: Isolated internal virtual network
+
+• Active Directory Configuration
+
+Created Organizational Units (IT, HR, Finance, Workstations)
+
+Configured security groups and role-based access control
+
+Monitored privileged group membership changes
+
+• Security Auditing & Logging
+
+Enabled advanced audit policies to log:
+
+4624 – Successful logons
+
+4625 / 4771 – Failed authentication attempts
+
+4728 – Privileged group membership changes
+
+4740 – Account lockouts
+
+Logs were analyzed using Event Viewer to identify attack patterns.
+
+• Attack Simulations
+
+Password spraying across multiple domain users
+
+Brute-force authentication attempts
+
+Privilege escalation via group modification
+
+Account lockout scenarios
+
+• Detection & Analysis
+
+Identified password spraying through log correlation:
+
+Multiple users
+
+Same source IP
+
+Grouped timestamps
+
+Investigated account lockouts and escalation events
+
+Differentiated normal system activity from malicious behavior
+
+• Mitigations Implemented
+
+Integrated Azure AD MFA to protect domain accounts
+
+Applied account lockout policies
+
+Demonstrated how MFA mitigates credential-based attacks
+
+• Skills Demonstrated
+
+Active Directory administration
+
+Windows authentication internals
+
+Security event analysis
+
+Blue team detection logic
+
+Identity security & MFA implementation
