@@ -53,6 +53,9 @@ Privilege escalation via group modification
 
 Account lockout scenarios
 
+<img width="816" height="632" alt="image" src="https://github.com/user-attachments/assets/3805bc69-1ed4-4aa4-bca9-37e7c6eb75c1" />
+
+
 • Detection & Analysis
 
 Identified password spraying through log correlation:
