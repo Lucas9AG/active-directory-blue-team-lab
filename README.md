@@ -21,7 +21,10 @@ Created Organizational Units (IT, HR, Finance, Workstations)
 
 Configured security groups and role-based access control
 
-Monitored privileged group membership changes
+Monitored privileged group membership changes 
+
+<img width="479" height="445" alt="image" src="https://github.com/user-attachments/assets/0240464e-b86b-4bb4-9620-d33be8a3c92b" />
+
 
 • Security Auditing & Logging
 
