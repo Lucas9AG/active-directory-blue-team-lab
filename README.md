@@ -36,6 +36,7 @@ Enabled advanced audit policies to log:
 4740 – Account lockouts
 
 Logs were analyzed using Event Viewer to identify attack patterns. 
+
 <img width="510" height="382" alt="image" src="https://github.com/user-attachments/assets/59eba043-2bba-4b9b-91fa-9b0b5c1fa97a" />
 
 
