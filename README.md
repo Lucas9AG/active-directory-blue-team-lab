@@ -1,4 +1,5 @@
 Active Directory Blue Team Security Lab
+
 • Overview
 
 This project documents a hands-on Active Directory home lab designed to simulate enterprise authentication attacks, detect malicious behavior using Windows security logs, and implement mitigations such as MFA.
